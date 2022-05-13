@@ -28,6 +28,7 @@ window.addEventListener('load', ()=>{
             for(let el of btns){
                 el.classList.remove('on'); 
             }
+            //클릭한 버튼만 활성화 
             e.currentTarget.classList.add('on'); 
         })
     }
