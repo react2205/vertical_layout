@@ -24,6 +24,7 @@ window.addEventListener('load', ()=>{
                 filter:sort
             }); 
 
+            //버튼 활성화 
             for(let el of btns){
                 el.classList.remove('on'); 
             }
