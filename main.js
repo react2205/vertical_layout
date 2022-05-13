@@ -1,6 +1,6 @@
 //브라우저가 로딩이 완료되었을 때 
 window.addEventListener('load', ()=>{
-    //isotope 플러그인을 적요 
+    //isotope 플러그인을 적용
     const grid = new Isotope('section', { //배치할 요소의 부모요소명
         itemSelector : 'article', //배치할 요소명 
         columnWidth : 'article', //너비값 구할 요소명 
